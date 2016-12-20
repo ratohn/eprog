@@ -1,17 +1,13 @@
 #include<stdio.h>
-	int main()
-	{
+int main(){
 		int number;
-		
-		printf("ENTER A NUMBER\n");
+    
+		printf("I ASK FOR A NUMBER\n");
 		scanf("%d", &number);
-		if (number%3==0)
-			{
-				printf("Ed ");		
+		if (number%5==0){
+				printf("POGI ");		
 			}
-		if(number%5==0)
-			{
-				printf("pogi\n");
-				
+		if(number%3==0){
+				printf("ED\n");
 			}
 	}
