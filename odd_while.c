@@ -1,11 +1,10 @@
-#include <stdio.h>
-int main (){
-	int i;
-	printf("Even numbers up to 100:\n");
-	i=1;
-	do{
-		printf("%d\n",i);
-		i=i+2;
+#include<stdio.h>
+int main(){
+	
+	int x=0;
+	while(x<100){
+		x++;
+		  if(x%2==1)
+		  printf("%d\n",x);
 	}
-	while(i<=100);
 }
