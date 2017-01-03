@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
 	
-	int i=0;
-	while(i<100){i++;
-		  if(i%2==1)
-		  printf("%d\n",i);
+	int x=0;
+	while(x<100){x++;
+		  if(x%2==1)
+		  printf("%d\n",x);
 	}
 }
